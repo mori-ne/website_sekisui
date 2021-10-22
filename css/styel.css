@@ -239,14 +239,15 @@ h2:before {
 
 .wrap .main_container .main .mv {
   width: 100%;
+  overflow: hidden;
   background-color: #000;
 }
 
-.wrap .main_container .main .mv li {
+.wrap .main_container .main .mv div {
   width: 100%;
 }
 
-.wrap .main_container .main .mv li img {
+.wrap .main_container .main .mv div img {
   width: 100%;
 }
 
@@ -321,6 +322,30 @@ h2:before {
 
 .wrap .main_container .main .contents .product .section-secondary .wrap-secondary .box-secondary:first-child {
   margin: 0;
+}
+
+.wrap .main_container .main .contents .tab_btn {
+  width: 1000px;
+  margin: 60px auto 60px auto;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.wrap .main_container .main .contents .tab_btn ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .main_container .main .contents .tab_btn ul li {
+  width: 50%;
+}
+
+.wrap .main_container .main .contents .tab_btn ul li a {
+  display: table-cell;
+  text-align: center;
+  height: 63px;
+  vertical-align: middle;
 }
 
 .wrap .main_container .footer {

@@ -204,10 +204,10 @@ h2 {
 
             .mv {
                 width: 100%;
-                // overflow: hidden;
+                overflow: hidden;
                 background-color: #000;
 
-                li {
+                div {
                     width: 100%;
 
                     img {
@@ -279,6 +279,28 @@ h2 {
                                 &:first-child {
                                     margin: 0;
                                 }
+                            }
+                        }
+                    }
+                }
+
+                .tab_btn {
+                    width: 1000px;
+                    margin: 60px auto 60px auto;
+                    background-color: #fff;
+                    font-size: 1rem;
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            width: 50%;
+
+                            a {
+                                display: table-cell;
+                                text-align: center;
+                                height: 63px;
+                                vertical-align: middle;
                             }
                         }
                     }
