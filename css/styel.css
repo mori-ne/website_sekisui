@@ -44,7 +44,6 @@ h2:before {
 
 .wrap .container .header {
   width: 200px;
-  height: 100vh;
   background-color: #fff;
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -338,14 +337,32 @@ h2:before {
 }
 
 .wrap .main_container .main .contents .tab_btn ul li {
+  position: relative;
   width: 50%;
 }
 
 .wrap .main_container .main .contents .tab_btn ul li a {
-  display: table-cell;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 63px;
-  vertical-align: middle;
+}
+
+.wrap .main_container .main .contents .tab_btn ul li a:hover {
+  background-color: #008086;
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.wrap .main_container .main .contents .tab_btn ul li:first-child {
+  border-right: 1px solid #ddd;
 }
 
 .wrap .main_container .footer {
