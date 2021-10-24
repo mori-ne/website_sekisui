@@ -323,9 +323,74 @@ h2:before {
   margin: 0;
 }
 
+.wrap .main_container .main .contents .pickup {
+  margin: 0 0 60px 0;
+}
+
+.wrap .main_container .main .contents .pickup .ttl_pickup {
+  font-size: 1.4rem;
+  border: none;
+  margin: 0;
+}
+
+.wrap .main_container .main .contents .pickup .ttl_pickup::before {
+  content: none;
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider {
+  position: relative;
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider .slides {
+  border: 1px solid #eee;
+  display: block;
+  height: 100% !important;
+  margin: 0 20px 0 0;
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider .slides img {
+  width: 100%;
+  height: auto;
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider .slick-arrow {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  margin: -20px 0 0;
+  z-index: 2;
+  text-indent: -9999px;
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider .slick-arrow::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-top: 1px solid #008086;
+  border-right: 1px solid #008086;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider .slick-prev {
+  left: -35px;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+
+.wrap .main_container .main .contents .pickup .pickup_slider .slick-next {
+  right: -35px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .wrap .main_container .main .contents .tab_btn {
   width: 1000px;
-  margin: 60px auto 60px auto;
+  margin: 60px auto 30px auto;
   background-color: #fff;
   font-size: 1rem;
 }
@@ -420,4 +485,4 @@ h2:before {
 .wrap .main_container .footer .footer_sitemap div ul li a:hover {
   text-decoration: underline;
 }
-/*# sourceMappingURL=styel.css.map */
+/*# sourceMappingURL=style.css.map */
