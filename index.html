@@ -14,16 +14,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
 		rel="stylesheet">
 
-	<!-- style -->
-	<link rel="stylesheet" href="css/destyle.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/destyle.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- font awesome -->
 	<script src="https://kit.fontawesome.com/9a6120f762.js" crossorigin="anonymous"></script>
 
-	<!-- slick -->
-	<link rel="stylesheet" type="text/css" href="css/slick.css">
-	<link rel="stylesheet" href="text/css" href="css/slick-theme.css">
 
 	<!-- title -->
 	<title>積水化成品</title>
@@ -32,7 +30,9 @@
 
 <body>
 	<div class="wrap">
-		<div class="container">
+		<div class="inner">
+
+			<!-- header -->
 			<header class="header">
 				<h1 class="logo"><a href="logo"><img src="img/logo.png" alt=""></a></h1>
 				<nav class="global_nav">
@@ -60,25 +60,24 @@
 			</header>
 
 
-			<div class="main_container">
-
+			<div class="container">
 				<main class="main">
-					<div class="mv">
-						<!-- <div><img alt="画像1" src="img/S73_sekisui_PC_JP_A3.jpg" /></div>
+
+					<!-- <div class="mv">
+						<div><img alt="画像1" src="img/S73_sekisui_PC_JP_A3.jpg" /></div>
 						<div><img alt="画像2" src="img/S80_sekisui_PC_JP_A3.jpg" /></div>
-						<div><img alt="画像3" src="img/S81_sekisui_PC_JP_A3.jpg" /></div> -->
-					</div>
+						<div><img alt="画像3" src="img/S81_sekisui_PC_JP_A3.jpg" /></div>
+					</div> -->
 
-					<article class="contents">
+					<!-- product -->
+					<div class="contents">
 						<div class="contents-inner">
-
 							<section class="product">
 								<h2>製品情報</h2>
 								<p>
 									積水化成品グループの製品は、暮らしの様々なシーンで活躍しております。<br>
 									※恐れ入りますが、当面の間メールからのお問い合わせをお願いしております。
 								</p>
-
 								<div class="section-secondary">
 									<h3 class="title-secondary">Industry Segment</h3>
 									<div class="wrap-secondary">
@@ -102,7 +101,6 @@
 										</a>
 									</div>
 								</div>
-
 								<div class="section-secondary">
 									<h3 class="title-secondary">Human Life Segment</h3>
 									<div class="wrap-secondary">
@@ -126,15 +124,19 @@
 										</a>
 									</div>
 								</div>
-
 								<div class="tab_btn">
 									<ul>
 										<li><a href="#">事業部・会社別から探す</a></li>
 										<li><a href="#">キーワードから探す</a></li>
 									</ul>
 								</div>
-
 							</section>
+						</div>
+					</div>
+
+					<!-- product pickup -->
+					<div class="contents">
+						<div class="contents-inner">
 							<section class="pickup">
 								<h2 class="ttl_pickup">製品PICK UP</h2>
 								<div class="pickup_slider">
@@ -146,15 +148,120 @@
 									<a class="slides" href="#"><img src="img/bnr_stlayer.jpg" alt=""></a>
 									<a class="slides" href="#"><img src="img/bnr_techpolymer.jpg" alt=""></a>
 								</div>
+
+								<div class="btn_wrap">
+									<a href="#" class="btn btn_primary">製品一覧を見る</a>
+									<a href="#" class="btn btn_primary">素材一覧を見る</a>
+								</div>
 							</section>
+						</div>
+					</div>
+
+					<!-- news -->
+					<div class="contents bg_white">
+						<div class="contents-inner">
+
 							<section class="news">
 								<h2>新着情報</h2>
+								<ul class="sort_tab">
+									<li><a class="sort_all active" href="#">すべて</a></li>
+									<li><a class="sort_news" href="#">ニュースリリース</a></li>
+									<li><a class="sort_ir" href="#">IR情報</a></li>
+									<li><a class="sort_csr" href="#">CSR</a></li>
+									<li><a class="sort_info" href="#">お知らせ</a></li>
+									<li><a class="sort_product" href="#">製品</a></li>
+								</ul>
+
+								<ul class="news_list">
+									<li>
+										<a href="#">
+											<span class="news_date">2021.10.11</span>
+											<div class="news_tag_group">
+												<p class="news_tag tag_info">お知らせ</p>
+											</div>
+											<p class="news_excerpt">「ケミカルマテリアルJAPAN 2021 - Online-」に出展します。</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="news_date">2021.10.06</span>
+											<div class="news_tag_group">
+												<p class="news_tag tag_ir">IR</p>
+												<p class="news_tag tag_csr">CSR</p>
+												<p class="news_tag tag_info">お知らせ</p>
+											</div>
+											<p class="news_excerpt">「統合報告書2021」を掲載しました。</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="news_date">2021.10.01</span>
+											<div class="news_tag_group">
+												<p class="news_tag tag_info">お知らせ</p>
+											</div>
+											<p class="news_excerpt">「テクポリマー」サイト　リニューアルのお知らせ</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="news_date">2021.09.30</span>
+											<div class="news_tag_group">
+												<p class="news_tag tag_news">ニュースリリース</p>
+												<p class="news_tag tag_product">製品</p>
+											</div>
+											<p class="news_excerpt">フッ素系樹脂粒子を水に分散できる非フッ素系分散剤のサンプル提供開始 <i
+													class="far fa-file-pdf"></i>[219KB]</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="news_date">2021.09.30</span>
+											<div class="news_tag_group">
+												<p class="news_tag tag_news">ニュースリリース</p>
+												<p class="news_tag tag_product">製品</p>
+											</div>
+											<p class="news_excerpt">リサイクル原料を100％使用した屋上緑化資材を開発 <i
+													class="far fa-file-pdf"></i>[3MB]
+											</p>
+										</a>
+									</li>
+								</ul>
+								<div class="btn_wrap">
+									<a href="#" class="btn_primary">一覧を見る</a>
+								</div>
 							</section>
-							<section class="about"></section>
-							<section class="search"></section>
 
 						</div>
-					</article>
+					</div>
+
+					<!-- about -->
+					<div class="contents">
+						<div class="contents_inner">
+							<section class="about">
+								<h2>積水化成品について</h2>
+							</section>
+						</div>
+					</div>
+
+					<!-- product pickup -->
+					<div class="contents bg_white">
+						<div class="contents-inner">
+							<section class="pickup">
+								<h2 class="ttl_pickup">PICK UP</h2>
+								<div class="pickup_slider">
+									<a class="slides" href="#"><img src="img/bnr_elastil.jpg" alt=""></a>
+									<a class="slides" href="#"><img src="img/bnr_movie.jpg" alt=""></a>
+									<a class="slides" href="#"><img src="img/bnr_piocelan.jpg" alt=""></a>
+									<a class="slides" href="#"><img src="img/bnr_steleveat.jpg" alt=""></a>
+									<a class="slides" href="#"><img src="img/bnr_stgel.jpg" alt=""></a>
+									<a class="slides" href="#"><img src="img/bnr_stlayer.jpg" alt=""></a>
+									<a class="slides" href="#"><img src="img/bnr_techpolymer.jpg" alt=""></a>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!-- search -->
+					<section class="search"></section>
 
 				</main>
 
@@ -250,12 +357,14 @@
 					</div>
 				</footer>
 
-
-
 			</div>
+
+
 		</div>
 	</div>
 
+
+	<!-- jQuery & Slick JS -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
